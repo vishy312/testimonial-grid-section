@@ -1,0 +1,62 @@
+@import "config";
+
+.container {
+  width: $mobile-card-width;
+  padding: 5em 1.5 * $padding-width;
+  margin: auto;
+  background-color: $light-greyish-blue;
+  border: 1px solid black;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 12%;
+}
+.profile {
+  @include flex-box;
+}
+.author {
+  margin-left: 2 * $base-size;
+  line-height: 0.05;
+  p {
+    opacity: 50%;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+.card {
+  color: $light-grey;
+  padding: 2 * $padding-width;
+  margin-bottom: 1.5 * $padding-width;
+  border-radius: 15px;
+  h1 {
+    font-size: 2rem;
+    color: $white;
+  }
+  p {
+    opacity: 70%;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+.cd-1 {
+  background-color: $moderate-violate;
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 20px;
+}
+.cd-2 {
+  background-color: $dark-greyish-blue;
+}
+.cd-3,
+.cd-5 {
+  background-color: $white;
+  color: $dark-greyish-blue;
+  h1 {
+    color: $dark-greyish-blue;
+  }
+}
+.cd-4 {
+  background-color: $dark-blackish-blue;
+}

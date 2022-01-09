@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container {
+  width: 375px;
+  padding: 5em 22.5px;
+  margin: auto;
+  background-color: #ecf2f8;
+  border: 1px solid black;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 12%;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.author {
+  margin-left: 26px;
+  line-height: 0.05;
+}
+
+.author p {
+  opacity: 50%;
+}
+
+.author h2 {
+  font-size: 1.3rem;
+}
+
+.card {
+  color: #cfcfcf;
+  padding: 30px;
+  margin-bottom: 22.5px;
+  border-radius: 15px;
+}
+
+.card h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.card p {
+  opacity: 70%;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.cd-1 {
+  background-color: #7541c8;
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 20px;
+}
+
+.cd-2 {
+  background-color: #48556a;
+}
+
+.cd-3,
+.cd-5 {
+  background-color: white;
+  color: #48556a;
+}
+
+.cd-3 h1,
+.cd-5 h1 {
+  color: #48556a;
+}
+
+.cd-4 {
+  background-color: #19212e;
+}
+/*# sourceMappingURL=main.css.map */
