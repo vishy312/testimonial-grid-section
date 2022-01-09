@@ -9,7 +9,8 @@
   padding: 5em 22.5px;
   margin: auto;
   background-color: #ecf2f8;
-  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .profile-pic {
@@ -81,5 +82,46 @@
 
 .cd-4 {
   background-color: #19212e;
+}
+
+@media (min-width: 675px) {
+  .container {
+    width: 1440px;
+    padding: 9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .two-card-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .four-card-set {
+    width: 74%;
+  }
+  .cd-5 {
+    width: 18%;
+  }
+  .cd-1,
+  .cd-4 {
+    width: 58%;
+  }
+  .cd-2,
+  .cd-3 {
+    width: 25%;
+  }
+  .cd-1 {
+    background-position: top right 80px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

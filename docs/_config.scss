@@ -16,6 +16,12 @@ $base-size: 13px;
   display: flex;
   align-items: center;
 }
+
+@mixin flexbox-align {
+    display: flex;
+    justify-content: space-between;
+}
+
 * {
   font: {
     size: 13px;

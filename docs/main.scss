@@ -5,7 +5,7 @@
   padding: 5em 1.5 * $padding-width;
   margin: auto;
   background-color: $light-greyish-blue;
-  border: 1px solid black;
+  box-sizing: border-box;
 }
 .profile-pic {
   border-radius: 50%;
@@ -59,4 +59,34 @@
 }
 .cd-4 {
   background-color: $dark-blackish-blue;
+}
+
+@media (min-width: $transition-at) {
+  .container {
+    width: $desktop-card-width;
+    padding: 9em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .two-card-set {
+    @include flexbox-align;
+  }
+  .four-card-set {
+    width: 74%;
+  }
+  .cd-5 {
+    width: 18%;
+  }
+  .cd-1,
+  .cd-4 {
+    width: 58%;
+  }
+  .cd-2,
+  .cd-3 {
+    width: 25%;
+  }
+  .cd-1 {
+    background-position: top right 80px;
+  }
 }
